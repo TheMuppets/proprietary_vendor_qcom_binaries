@@ -1,3 +1,4 @@
+# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,22 +21,22 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/qcom/binaries/msm8952-64/graphics/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so
 endif
