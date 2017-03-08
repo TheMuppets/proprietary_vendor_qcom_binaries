@@ -16,6 +16,10 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/qcom/binaries/msm8916-32/graphics/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/qcom/binaries/msm8916-32/graphics/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/qcom/binaries/msm8916-32/graphics/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/qcom/binaries/msm8916-32/graphics/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/qcom/binaries/msm8916-32/graphics/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/qcom/binaries/msm8916-32/graphics/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/qcom/binaries/msm8916-32/graphics/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
