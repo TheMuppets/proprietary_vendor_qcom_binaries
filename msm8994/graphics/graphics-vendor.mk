@@ -17,6 +17,8 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/qcom/binaries/msm8994/graphics/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/qcom/binaries/msm8994/graphics/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/qcom/binaries/msm8994/graphics/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/qcom/binaries/msm8994/graphics/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/qcom/binaries/msm8994/graphics/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
