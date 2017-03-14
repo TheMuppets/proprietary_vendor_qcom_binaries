@@ -1,5 +1,3 @@
-$(error This repo is now deprecated. Move your blobs to your device's vendor repo.)
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
