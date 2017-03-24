@@ -22,17 +22,17 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/qcom/binaries/msm8974/graphics/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
